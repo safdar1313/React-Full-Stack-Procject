@@ -1,0 +1,23 @@
+.menu a{
+    font-size: 16px;
+    color: rgb(11, 16, 74);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 9px;
+}
+.nav-cta{
+    .sign-up{
+        background-color: var(--primary-color);
+        padding: 15px 30px;
+        transition: 0.5s;
+    }
+    .sign-up:hover{background-color: var(--accent-color);transition:0.5s ;}
+    .sign-in{
+        color: var(--secodary-color);
+        font-weight: 600;
+        font-size: 18px;
+    }
+} 
+
+
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            div{
+                width: inline;
+                background-color: burlywood;
+                padding: 4rem;
+                border: 2px solid darkred;
+                color: #fff;
+                text-transform: uppercase;
+                font-family: Arial, Helvetica, sans-serif;
+                transition: 1s;
+                margin-left: 4rem;
+            }
+        }
+        .div1:hover {
+    transform: scale3d(1.1, 1.2, 1) translateX(50px);
+    transition: 1s;
+}
+    .div2:hover {
+        transform: translate3d(20px, 0, 0);
+    }
+    </style>
+</head>
+<body>
+    
+    <div class="div1">
+        <strong>transform</strong>
+    </div>
+    <div class="div2">
+        <strong>translate</strong>
+    </div>
+</body>
+</html>
