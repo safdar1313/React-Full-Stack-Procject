@@ -16,6 +16,8 @@ function SignIn() {
         .then((res)=>{
             if(res.data){
                 setErrLogin();
+                confirm("You are going to user Dashboard!  Congrats!")
+                alert("You Have Successfully Logged In!")
                 navigate('/')
             }
             else{
@@ -25,6 +27,7 @@ function SignIn() {
         .catch((error)=>{
             setErrLogin("Invalid Credentials*");
                 pswdInput.current.focus();
+                alert("Abe Pagal Sai credential add kr!")
                 setEmail('');
         })
     }
@@ -52,6 +55,7 @@ function SignIn() {
                         value={email}
                         onChange={(e)=>setEmail(e.target.value)}
                         type="email"
+                        required
                         placeholder="Enter your email"
                         className="w-full mt-2 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                         />

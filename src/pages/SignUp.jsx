@@ -15,11 +15,11 @@ function SignUp() {
         e.preventDefault()
         axios.post("http://localhost:1000/sign-up",{name,email,message})
         .then(()=>{
-          // navigate('/');
           focusName.current.focus();
           setEmail('');
           setName('');
           setMessage('');
+          navigate('/about');
         })
         .catch((error)=>
         {

@@ -4,6 +4,18 @@ import Breadcrumb from "../dynamic-components/Breadcrumb";
 
 function About(){
     const [data,setData] = useState([]);
+    const delUser = (id)=>{
+            axios.delete(`http://localhost:1000/users/${id}`)
+            .then(()=>{
+                console.log("User Delete Ho Gya")
+                setData(prevData => prevData.filter(user => user._id !== id));
+                alert("O bhai ye Data Base se bi remove hogya ab...")
+            })
+            .catch((err)=>{
+                console.log("An Error Occured", err)
+            })
+    }
+   
     useEffect(()=>{
         axios.get('http://localhost:1000/users')
         .then((res)=>{ 
@@ -38,28 +50,25 @@ function About(){
    
         <div className='container mt-[60px] sm:px-[60px] '>
         <h2 className="pb-[40px]">The data coming from Data-Base will be Displayed Below:</h2>
+        <div className="grid grid-cols-3 gap-6 mb-6">
+
             {
                 data.map((user)=>(
-                    <div className="grid grid-cols-3 gap-6 mb-6">
+                   
                         <div className="card p-4">
                             <h3>Name:{user.name}  </h3>
                             <p>Email: {user.email}  </p>
-                            <i>Message: {user.message} </i>
+                            <i>Message: {user.message} </i><br />
+                            <div className="w-full text-right">
+                                <button onClick={()=>delUser(user._id)  }><i className="fa fa-trash"></i></button>   
+                            </div>
+                            
                         </div>
-                        <div className="card p-4">
-                            <h3>Name: {user.name} </h3>
-                            <p>Email: {user.email}  </p>
-                            <i>Message: {user.message} </i>
-                        </div>
-                        <div className="card p-4">
-                            <h3>Name:{user.name}  </h3>
-                            <p>Email: {user.email}  </p>
-                            <i>Message: {user.message} </i>
-                        </div>
-                    </div>
+                   
                 ))
             }
-        </div>        
+        </div>     
+         </div>   
     </div>
   );
 }
