@@ -15,7 +15,6 @@ function About(){
                 console.log("An Error Occured", err)
             })
     }
-   
     useEffect(()=>{
         axios.get('http://localhost:1000/users')
         .then((res)=>{ 
