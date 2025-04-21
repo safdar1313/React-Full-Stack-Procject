@@ -23,7 +23,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="lg:col-span-6 hidden lg:block banner-profile pt-20">
-                        <img src="/banner.png" alt="Banner Profile" />
+                        <img src="/React-Full-Stack-Procject/banner.png" alt="Banner Profile" />
                         <div className="home-ps flex">
                             <div className="user-icon bg-indigo-100  flex justify-center items-center">
                                 <i className="fa-regular fa-user"></i>
@@ -142,7 +142,7 @@ function Home() {
         <div className="fancy-cards-four container px-[76px]">
             <div className="grid grid-cols-12 py-7 mb-10">
                 <div className="col-span-6">
-                    <img src="/about1.png" alt="About Us" />
+                    <img src="/React-Full-Stack-Procject/about1.png" alt="About Us" />
                 </div>
                 <div className="col-span-6 md:pl-5">
                     <h2>We Are Providing The Online Course In Global World</h2>
@@ -170,31 +170,31 @@ function Home() {
                     <div className="col-span-12 grid grid-cols-5 gap-4">
                         <div className="col-span-1 logo-cards">
                             <a href="#" className='flex items-center justify-center gap-3 bg-white p-3 border-2 rounded-full hover:bg-[var(--primary-color)]'>
-                                <img src="/e3.png" alt="vite logo" className='border-4 rounded-full ' />
+                                <img src="/React-Full-Stack-Procject/e3.png" alt="vite logo" className='border-4 rounded-full ' />
                                 <p className=''>Digital Marketing</p>
                             </a>
                         </div>
                         <div className="col-span-1 logo-cards">
                             <a href="#" className='flex items-center justify-center gap-3 bg-white p-3 border-2 rounded-full hover:bg-[var(--primary-color)]'>
-                                <img src="/e3.png" alt="vite logo" className='border-4 rounded-full ' />
+                                <img src="/React-Full-Stack-Procject/e3.png" alt="vite logo" className='border-4 rounded-full ' />
                                 <p className=''>Digital Marketing</p>
                             </a>
                         </div>
                         <div className="col-span-1 logo-cards">
                             <a href="#" className='flex items-center justify-center gap-3 bg-white p-3 border-2 rounded-full hover:bg-[var(--primary-color)]'>
-                                <img src="/e3.png" alt="vite logo" className='border-4 rounded-full ' />
+                                <img src="/React-Full-Stack-Procject/e3.png" alt="vite logo" className='border-4 rounded-full ' />
                                 <p className=''>Digital Marketing</p>
                             </a>
                         </div>
                         <div className="col-span-1 logo-cards">
                             <a href="#" className='flex items-center justify-center gap-3 bg-white p-3 border-2 rounded-full hover:bg-[var(--primary-color)]'>
-                                <img src="/e3.png" alt="vite logo" className='border-4 rounded-full ' />
+                                <img src="/React-Full-Stack-Procject/e3.png" alt="vite logo" className='border-4 rounded-full ' />
                                 <p className=''>Digital Marketing</p>
                             </a>
                         </div>
                         <div className="col-span-1 logo-cards">
                             <a href="#" className='flex items-center justify-center gap-3 bg-white p-3 border-2 rounded-full hover:bg-[var(--primary-color)]'>
-                                <img src="/e3.png" alt="vite logo" className='border-4 rounded-full ' />
+                                <img src="/React-Full-Stack-Procject/e3.png" alt="vite logo" className='border-4 rounded-full ' />
                                 <p className=''>Digital Marketing</p>
                             </a>
                         </div>
@@ -202,31 +202,31 @@ function Home() {
                     <div className="col-span-12 grid grid-cols-5 gap-4 py-5">
                         <div className="col-span-1 logo-cards">
                             <a href="#" className='flex items-center justify-center gap-3 bg-white p-3 border-2 rounded-full hover:bg-[var(--primary-color)]'>
-                                <img src="/e3.png" alt="vite logo" className='border-4 rounded-full ' />
+                                <img src="/React-Full-Stack-Procject/e3.png" alt="vite logo" className='border-4 rounded-full ' />
                                 <p className=''>Digital Marketing</p>
                             </a>
                         </div>
                         <div className="col-span-1 logo-cards">
                             <a href="#" className='flex items-center justify-center gap-3 bg-white p-3 border-2 rounded-full hover:bg-[var(--primary-color)]'>
-                                <img src="/e3.png" alt="vite logo" className='border-4 rounded-full ' />
+                                <img src="/React-Full-Stack-Procject/e3.png" alt="vite logo" className='border-4 rounded-full ' />
                                 <p className=''>Digital Marketing</p>
                             </a>
                         </div>
                         <div className="col-span-1 logo-cards">
                             <a href="#" className='flex items-center justify-center gap-3 bg-white p-3 border-2 rounded-full hover:bg-[var(--primary-color)]'>
-                                <img src="/e3.png" alt="vite logo" className='border-4 rounded-full ' />
+                                <img src="/React-Full-Stack-Procject/e3.png" alt="vite logo" className='border-4 rounded-full ' />
                                 <p className=''>Digital Marketing</p>
                             </a>
                         </div>
                         <div className="col-span-1 logo-cards">
                             <a href="#" className='flex items-center justify-center gap-3 bg-white p-3 border-2 rounded-full hover:bg-[var(--primary-color)]'>
-                                <img src="/e3.png" alt="vite logo" className='border-4 rounded-full ' />
+                                <img src="/React-Full-Stack-Procject/e3.png" alt="vite logo" className='border-4 rounded-full ' />
                                 <p className=''>Digital Marketing</p>
                             </a>
                         </div>
                         <div className="col-span-1 logo-cards">
                             <a href="#" className='flex items-center justify-center gap-3 bg-white p-3 border-2 rounded-full hover:bg-[var(--primary-color)]'>
-                                <img src="/e3.png" alt="vite logo" className='border-4 rounded-full ' />
+                                <img src="/React-Full-Stack-Procject/e3.png" alt="vite logo" className='border-4 rounded-full ' />
                                 <p className=''>Digital Marketing</p>
                             </a>
                         </div>
@@ -234,13 +234,13 @@ function Home() {
                     <div className="col-span-12 flex justify-center gap-5">
                         <div className="w-1/5 logo-cards">
                             <a href="#" className='flex items-center justify-center gap-3 bg-white p-3 border-2 rounded-full hover:bg-[var(--primary-color)]'>
-                                <img src="/e3.png" alt="vite logo" className='border-4 rounded-full ' />
+                                <img src="/React-Full-Stack-Procject/e3.png" alt="vite logo" className='border-4 rounded-full ' />
                                 <p className=''>Digital Marketing</p>
                             </a>    
                         </div>
                         <div className="w-1/5 logo-cards">
                             <a href="#" className='flex items-center justify-center gap-3 bg-white p-3 border-2 rounded-full hover:bg-[var(--primary-color)]'>
-                                <img src="/e3.png" alt="vite logo" className='border-4 rounded-full ' />
+                                <img src="/React-Full-Stack-Procject/e3.png" alt="vite logo" className='border-4 rounded-full ' />
                                 <p className=''>Digital Marketing</p>
                             </a>    
                         </div>
@@ -263,7 +263,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="col-span-6">
-                    <img src="/review.png" alt="About Us" />
+                    <img src="/React-Full-Stack-Procject/review.png" alt="About Us" />
                 </div>
             </div>
         </div>

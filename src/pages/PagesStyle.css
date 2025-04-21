@@ -62,7 +62,7 @@ p{
 }
 .btn-1:hover, .btn-2:hover{background-color: var(--accent-color);transition: 0.6s;}
 .banner-section{
-    background-image: url('./home-bg.jpg');
+    background-image: url('/React-Full-Stack-Procject/home-bg.jpg');
     background-position: center center;
     background-size: cover;
     overflow: hidden;
@@ -161,7 +161,7 @@ p{
     }
 }
 .fancy-cards-three{
-    background-image: url('./shape-1.png');
+    background-image: url('/React-Full-Stack-Procject/shape-1.png');
     background-position: center center;
     background-size: cover;
     overflow: hidden;
@@ -186,7 +186,7 @@ p{
     }
 }
 .fancy-cards-five{
-    background-image: url('./section-5.jpg');
+    background-image: url('/React-Full-Stack-Procject/section-5.jpg');
     background-position: center center;
     background-size: cover;
     .logo-cards{
@@ -199,12 +199,12 @@ p{
     }
 }
 .fancy-cards-six{
-    background-image: url('./shape-1.png');
+    background-image: url('/React-Full-Stack-Procject/shape-1.png');
     background-position: center center;
     background-size: cover;
     .course-card{
         position: relative;
-        background-image: url('./course-1.png');
+        background-image: url('/React-Full-Stack-Procject/course-1.png');
         background-position: center center;
         background-size: cover;
         border-radius: 10px;
@@ -216,7 +216,7 @@ p{
     }
     .course-card-2{
         position: relative;
-        background-image: url('./course-2.png');
+        background-image: url('/React-Full-Stack-Procject/course-2.png');
         background-position: center center;
         background-size: cover;
         border-radius: 10px;
@@ -239,7 +239,7 @@ p{
     border-radius: 10px;
 }
 .error404{
-    background-image: url('/appointment_bg.webp');
+    background-image: url('/React-Full-Stack-Procject/appointment_bg.webp');
     background-position: center center;
     background-size: cover;
     height: 85vh;

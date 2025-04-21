@@ -48,7 +48,7 @@ function Blogs() {
           ))}
         </ul>
         <marquee width="100%" direction="up" height="200px" scrollamount='4' behavior='alternate'>
-          <img src="/logo.png" alt="logo" width={100}/>
+          <img src="/React-Full-Stack-Procject/logo.png" alt="logo" width={100}/>
         </marquee>
       </div>
     </div>

@@ -14,12 +14,10 @@ function Users() {
         console.log('No data Found!', err);
       });
   }, []);
-
   return (
     <div className='users pt-[80px]' >
       <Breadcrumb title={"Users Stored in Data Base"} />
       <marquee behavior="slide" direction="left">
-
       </marquee>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 container py-[60px] px-[60px]">
         

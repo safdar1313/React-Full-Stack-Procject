@@ -12,7 +12,7 @@ function Header() {
             <div className="container ">
                 <nav className='grid lg:grid-cols-12 py-4 xl:px-[50px] items-center'>
                     <div className="logo col-span-2">
-                        <img src="/logo.png" alt="Logo" /> 
+                        <img src="/React-Full-Stack-Procject/logo.png" alt="Logo" /> 
                     </div>
                     <div className="col-span-2 sm:hidden col-span-3">
                         <button onClick={toggleMenu}><span>{!openMenu? '☰' : '✖'} </span></button>    

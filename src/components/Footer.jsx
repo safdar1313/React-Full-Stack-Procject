@@ -7,7 +7,7 @@ function Footer() {
         <div className="container px-[60px]">
             <div className="flex flex-col gap-4 px-4 text-center items-center">
                 <div className="footer-logo p-2 border shadow">
-                    <Link to={'/#home_banner'}><img src="/logo.png" alt="Our Logo" /></Link>
+                    <Link to={'/#home_banner'}><img src="/React-Full-Stack-Procject/logo.png" alt="Our Logo" /></Link>
                 </div>
                 <h2>Uncover a New Approach to Study</h2>
                 <p>Get Viraka now and be part of a community of designers, from <br />freelancers to top Fortune 500 companies.</p>
